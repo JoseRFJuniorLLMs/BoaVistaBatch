@@ -7,7 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
-import java.time.LocalDate;
 
 @ToString(exclude="id")
 @EqualsAndHashCode
@@ -30,7 +29,7 @@ public class PriceQuote implements Serializable {
     private String supplier;
 
     @Column(name = "quote_date", length = 100, nullable = false)
-    public LocalDate quotedate;
+    public String quotedate;
 
     @Column(name = "annual_usage", length = 100, nullable = false)
     private String annualusage;

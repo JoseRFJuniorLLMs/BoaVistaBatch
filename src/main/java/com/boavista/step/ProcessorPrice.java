@@ -18,7 +18,7 @@ public class ProcessorPrice implements ItemProcessor<PriceQuote, PriceQuote> {
 
         final String tubeassemblyid = priceQuote.getTubeassemblyid();
         final String supplier = priceQuote.getSupplier();
-        final LocalDate quotedate = priceQuote.getQuotedate();
+        final String quotedate = priceQuote.getQuotedate();
         final String annualusage = priceQuote.getAnnualusage();
         final String minorderquantity = priceQuote.getMinorderquantity();
         final String bracketpricing = priceQuote.getBracketpricing();

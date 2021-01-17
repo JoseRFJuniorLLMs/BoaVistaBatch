@@ -17,7 +17,7 @@ public class ReaderPrice {
             {
                 setLineTokenizer(new DelimitedLineTokenizer() {
                     {
-                        setNames(new String[] { "id", "firstName", "lastName" });
+                        setNames(new String[] { "tubeassemblyid", "supplier", "quotedate", "annualusage", "minorderquantity", "bracketpricing", "quantity", "cost" });
                     }
                 });
                 setFieldSetMapper(new BeanWrapperFieldSetMapper<PriceQuote>() {

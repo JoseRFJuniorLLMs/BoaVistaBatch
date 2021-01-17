@@ -60,7 +60,7 @@ public class PriceQuoteDaoImpl extends JdbcDaoSupport implements PriceQuoteDao {
             PriceQuote priceQuote = new PriceQuote();
             priceQuote.setTubeassemblyid((String) row.get("id"));
             priceQuote.setSupplier((String) row.get("supplier"));
-            priceQuote.setQuotedate((LocalDate) row.get("quote_date"));
+            priceQuote.setQuotedate((String) row.get("quote_date"));
             priceQuote.setAnnualusage((String) row.get("annual_usage"));
             priceQuote.setMinorderquantity((String) row.get("min_order_quantity"));
             priceQuote.setBracketpricing((String) row.get("bracket_pricing"));
