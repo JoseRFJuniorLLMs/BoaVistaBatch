@@ -24,7 +24,7 @@ public class PriceQuote implements Serializable {
 
     @Id
     @Column(name = "tube_assembly_id", unique = true, nullable = false)
-    private String id;
+    private String tubeassemblyid;
 
     @Column(name = "supplier", length = 100, nullable = false)
     private String supplier;
@@ -50,7 +50,7 @@ public class PriceQuote implements Serializable {
     @Override
     public String toString() {
         return "PriceQuote{" +
-                "id='" + id + '\'' +
+                "tubeassemblyid='" + tubeassemblyid + '\'' +
                 ", supplier='" + supplier + '\'' +
                 ", quotedate=" + quotedate +
                 ", annualusage='" + annualusage + '\'' +
@@ -60,4 +60,5 @@ public class PriceQuote implements Serializable {
                 ", cost='" + cost + '\'' +
                 '}';
     }
+
 }

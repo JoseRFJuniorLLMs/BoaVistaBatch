@@ -8,9 +8,9 @@ import org.springframework.batch.item.ItemProcessor;
 
 import com.boavista.model.Customer;
 
-public class Processor implements ItemProcessor<Customer, Customer> {
+public class ProcessorCustomer implements ItemProcessor<Customer, Customer> {
 
-	private static final Logger log = LoggerFactory.getLogger(Processor.class);
+	private static final Logger log = LoggerFactory.getLogger(ProcessorCustomer.class);
 
 	@Override
 	public Customer process(Customer customer) throws Exception {

@@ -7,7 +7,7 @@ import org.springframework.batch.item.file.mapping.DefaultLineMapper;
 import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
 import org.springframework.core.io.ClassPathResource;
 
-public class Reader {
+public class ReaderCustomer {
 	public static FlatFileItemReader<Customer> reader(String path) {
 		FlatFileItemReader<Customer> reader = new FlatFileItemReader<Customer>();
 

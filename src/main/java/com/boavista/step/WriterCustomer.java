@@ -7,11 +7,11 @@ import org.springframework.batch.item.ItemWriter;
 import com.boavista.dao.CustomerDao;
 import com.boavista.model.Customer;
 
-public class Writer implements ItemWriter<Customer> {
+public class WriterCustomer implements ItemWriter<Customer> {
 
 	private final CustomerDao customerDao;
 
-	public Writer(CustomerDao customerDao) {
+	public WriterCustomer(CustomerDao customerDao) {
 		this.customerDao = customerDao;
 	}
 
