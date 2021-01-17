@@ -9,10 +9,8 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -31,18 +29,20 @@ public class PriceQuoteDaoImpl extends JdbcDaoSupport implements PriceQuoteDao {
     @Override
     public void insert(List<? extends PriceQuote> priceQuotes) {
 
-        String sql = "INSERT INTO pricequote " + "(id, supplier, quotedate, annualusage, minorderquantity, bracketpricing, quantity, cost) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO pricequote " + "( id, tube_assembly_id, supplier, quote_date, annual_usage, min_order_quantity, bracket_pricing, quantity, cost) " +
+                                           "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
         getJdbcTemplate().batchUpdate(sql, new BatchPreparedStatementSetter() {
             public void setValues(PreparedStatement ps, int i) throws SQLException {
                 PriceQuote priceQuote = priceQuotes.get(i);
-                ps.setString(1, priceQuote.getTubeassemblyid());
-                ps.setString(2, priceQuote.getSupplier());
-                ps.setDate(3, Date.valueOf(priceQuote.getQuotedate()));
-                ps.setString(4, priceQuote.getAnnualusage());
-                ps.setString(5, priceQuote.getMinorderquantity());
-                ps.setString(6, priceQuote.getBracketpricing());
-                ps.setString(7, priceQuote.getQuantity());
-                ps.setString(8, priceQuote.getCost());
+                ps.setLong(1, priceQuote.getId());
+                ps.setString(2, priceQuote.getTubeassemblyid());
+                ps.setString(3, priceQuote.getSupplier());
+                ps.setString(4, priceQuote.getQuotedate());
+                ps.setString(5, priceQuote.getAnnualusage());
+                ps.setString(6, priceQuote.getMinorderquantity());
+                ps.setString(7, priceQuote.getBracketpricing());
+                ps.setString(8, priceQuote.getQuantity());
+                ps.setString(9, priceQuote.getCost());
             }
             public int getBatchSize() {
                 return priceQuotes.size();
@@ -58,7 +58,8 @@ public class PriceQuoteDaoImpl extends JdbcDaoSupport implements PriceQuoteDao {
         List<PriceQuote> result = new ArrayList<PriceQuote>();
         for (Map<String, Object> row : rows) {
             PriceQuote priceQuote = new PriceQuote();
-            priceQuote.setTubeassemblyid((String) row.get("id"));
+            priceQuote.setId((Long) row.get("id"));
+            priceQuote.setTubeassemblyid((String) row.get("tube_assembly_id"));
             priceQuote.setSupplier((String) row.get("supplier"));
             priceQuote.setQuotedate((String) row.get("quote_date"));
             priceQuote.setAnnualusage((String) row.get("annual_usage"));

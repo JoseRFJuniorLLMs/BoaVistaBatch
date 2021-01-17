@@ -7,6 +7,7 @@ CREATE TABLE customer  (
 );
 
 CREATE TABLE pricequote  (
+    id Bigserial PRIMARY KEY NOT NULL,
     tube_assembly_id VARCHAR,
     supplier VARCHAR,
     quote_date DATE,

@@ -2,9 +2,7 @@ package com.boavista.model;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @ToString(exclude="id")
@@ -21,7 +19,10 @@ public class Customer implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	private long id;
+	@Column(name = "id")
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	private Long id;
+
 	private String firstName;
 	private String lastName;
 

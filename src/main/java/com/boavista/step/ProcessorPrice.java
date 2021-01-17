@@ -5,17 +5,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemProcessor;
 
-import java.time.LocalDate;
-import java.util.Random;
-
 public class ProcessorPrice implements ItemProcessor<PriceQuote, PriceQuote> {
 
     private static final Logger log = LoggerFactory.getLogger(ProcessorPrice.class);
 
     @Override
     public PriceQuote process(PriceQuote priceQuote) throws Exception {
-        Random r = new Random();
 
+        final Long id = priceQuote.getId();
         final String tubeassemblyid = priceQuote.getTubeassemblyid();
         final String supplier = priceQuote.getSupplier();
         final String quotedate = priceQuote.getQuotedate();
@@ -25,7 +22,7 @@ public class ProcessorPrice implements ItemProcessor<PriceQuote, PriceQuote> {
         final String quantity = priceQuote.getQuantity();
         final String cost = priceQuote.getCost();
 
-        final PriceQuote fixedPriceQuote = new PriceQuote(tubeassemblyid, supplier, quotedate, annualusage, minorderquantity, bracketpricing, quantity, cost );
+        final PriceQuote fixedPriceQuote = new PriceQuote(id, tubeassemblyid, supplier, quotedate, annualusage, minorderquantity, bracketpricing, quantity, cost );
 
         log.info("Converting (" + priceQuote + ") into (" + fixedPriceQuote + ")");
 

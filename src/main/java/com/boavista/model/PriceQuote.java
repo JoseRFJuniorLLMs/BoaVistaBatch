@@ -2,10 +2,7 @@ package com.boavista.model;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @ToString(exclude="id")
@@ -22,36 +19,48 @@ public class PriceQuote implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @Column(name = "tube_assembly_id", unique = true, nullable = false)
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long id;
+
+    @Column(name = "tube_assembly_id")
     private String tubeassemblyid;
 
-    @Column(name = "supplier", length = 100, nullable = false)
+    @Column(name = "supplier")
     private String supplier;
 
-    @Column(name = "quote_date", length = 100, nullable = false)
+    @Column(name = "quote_date")
     public String quotedate;
 
-    @Column(name = "annual_usage", length = 100, nullable = false)
+    @Column(name = "annual_usage")
     private String annualusage;
 
-    @Column(name = "min_order_quantity", length = 100, nullable = false)
+    @Column(name = "min_order_quantity")
     private String minorderquantity;
 
-    @Column(name = "bracket_pricing", length = 100, nullable = false)
+    @Column(name = "bracket_pricing")
     private String bracketpricing;
 
-    @Column(name = "quantity", length = 100, nullable = false)
+    @Column(name = "quantity")
     private String quantity;
 
-    @Column(name = "cost", length = 100, nullable = false)
+    @Column(name = "cost")
     private String cost;
+
+   public long getId() {
+        return id;
+    }
+    public void setId(long id) {
+        this.id = id;
+    }
 
     @Override
     public String toString() {
         return "PriceQuote{" +
-                "tubeassemblyid='" + tubeassemblyid + '\'' +
+                "id=" + id +
+                ", tubeassemblyid='" + tubeassemblyid + '\'' +
                 ", supplier='" + supplier + '\'' +
-                ", quotedate=" + quotedate +
+                ", quotedate='" + quotedate + '\'' +
                 ", annualusage='" + annualusage + '\'' +
                 ", minorderquantity='" + minorderquantity + '\'' +
                 ", bracketpricing='" + bracketpricing + '\'' +
@@ -59,5 +68,4 @@ public class PriceQuote implements Serializable {
                 ", cost='" + cost + '\'' +
                 '}';
     }
-
 }

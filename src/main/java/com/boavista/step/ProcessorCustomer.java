@@ -14,12 +14,12 @@ public class ProcessorCustomer implements ItemProcessor<Customer, Customer> {
 
 	@Override
 	public Customer process(Customer customer) throws Exception {
-		Random r = new Random();
-		
+
+		final Long id = customer.getId();
 		final String firstName = customer.getFirstName().toUpperCase();
 		final String lastName = customer.getLastName().toUpperCase();
 
-		final Customer fixedCustomer = new Customer(r.nextLong(), firstName, lastName);
+		final Customer fixedCustomer = new Customer(id, firstName, lastName);
 
 		log.info("Converting (" + customer + ") into (" + fixedCustomer + ")");
 

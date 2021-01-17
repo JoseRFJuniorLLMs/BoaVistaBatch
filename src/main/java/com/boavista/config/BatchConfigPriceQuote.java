@@ -26,18 +26,17 @@ public class BatchConfigPriceQuote {
     @Autowired
     public PriceQuoteDao priceQuoteDao;
 
-
   	@Bean
 	public Job jobPrice() {
 		return jobBuilderFactory.get("jobPrice")
 				.incrementer(new RunIdIncrementer())
 				.listener(new ListenerPrice(priceQuoteDao))
-				.flow(step2()).end().build();
+				.flow(step1()).end().build();
 	}
 
 	@Bean
-	public Step step2() {
-		return stepBuilderFactory.get("step2").<PriceQuote, PriceQuote>chunk(2)
+	public Step step1() {
+		return stepBuilderFactory.get("step1").<PriceQuote, PriceQuote>chunk(2)
 				.reader(ReaderPrice.reader("price_quote.csv"))
 				.processor(new ProcessorPrice())
 				.writer(new WriterPrice(priceQuoteDao))

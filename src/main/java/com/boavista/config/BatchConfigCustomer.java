@@ -35,12 +35,12 @@ public class BatchConfigCustomer {
 		return jobBuilderFactory.get("jobCustomer")
 				.incrementer(new RunIdIncrementer())
 				.listener(new ListenerCustomer(customerDao))
-				.flow(step1()).end().build();
+				.flow(step2()).end().build();
 	}
 
 	@Bean
-	public Step step1() {
-		return stepBuilderFactory.get("step1").<Customer, Customer>chunk(2)
+	public Step step2() {
+		return stepBuilderFactory.get("step2").<Customer, Customer>chunk(2)
 				.reader(ReaderCustomer.reader("customer-data.csv"))
 				.processor(new ProcessorCustomer())
 				.writer(new WriterCustomer(customerDao))
