@@ -47,7 +47,7 @@ public class PriceQuote implements Serializable {
     @Column(name = "cost")
     private String cost;
 
-   public long getId() {
+    public long getId() {
         return id;
     }
     public void setId(long id) {
