@@ -1,9 +1,9 @@
 # BoaVistaBatch
 
-#Colab da limpeza dos dados
+# Colab da limpeza dos dados
 https://github.com/GCPBigData/BoaVistaBatch/blob/main/BoaVista.ipynb
 
-#Github do projeto Scala Spark
+# Github do projeto Scala Spark
 https://github.com/GCPBigData/BoaVista
 
 
@@ -17,7 +17,7 @@ https://github.com/GCPBigData/BoaVista
 # Arquitetura Usada no Projeto Scala Spark
 
 
- #GCP -  Criar uma instância, Postgres 
+# GCP -  Criar uma instância, Postgres 
     
     1 -  Acesse a página "Instâncias" do Cloud SQL no Console do Google Cloud.
     2 -  Selecione o projeto e clique em Continuar.
@@ -51,7 +51,7 @@ https://github.com/GCPBigData/BoaVista
 # Cree una instancia de máquina virtual
     https://cloud.google.com/compute/docs/quickstart-linux?hl=es-419
 
-#Baixe o Projeto Java
+# Baixe o Projeto Java
   
     1 - git clone https://github.com/GCPBigData/BoaVistaBatch
     2 - ./mvnw spring-boot:run
@@ -59,7 +59,7 @@ https://github.com/GCPBigData/BoaVista
     OBS: Quando terminar o carregamento, mostra uma mensagem.
          Outra maneira e copiar o jar para um bucket, ou via ssh para uma VM.
 
-#Como verificar o status do pipeline
+# Como verificar o status do pipeline
 
     1 - Acesse o Console do Google Cloud.
     2 - Selecione seu projeto do Google Cloud na lista de projetos.
