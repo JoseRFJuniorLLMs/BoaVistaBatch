@@ -1,19 +1,20 @@
 # BoaVistaBatch
 
-Colab da limpeza dos dados
+#Colab da limpeza dos dados
 https://github.com/GCPBigData/BoaVistaBatch/blob/main/BoaVista.ipynb
 
-Github do projeto Scala Spark
+#Github do projeto Scala Spark
 https://github.com/GCPBigData/BoaVista
 
- ##Arquitetura Usada no Projeto Java
+
+# Arquitetura Usada no Projeto Java
    Java 11
    Spring Boot 2.4.0
    Postgresql 9.4-1200-jdbc41
 
 <img src="./plot/java.png" alt="main"  width=800> 
 
-##Arquitetura Usada no Projeto Scala Spark
+# Arquitetura Usada no Projeto Scala Spark
 
 
  #GCP -  Criar uma instância, Postgres 
