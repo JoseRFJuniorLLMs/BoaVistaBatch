@@ -1,0 +1,96 @@
+bill_of_materials
+
+tube_assembly_id 
+component_id_1
+quantity_1
+component_id_2
+quantity_2
+component_id_3
+quantity_3
+component_id_4
+quantity_4
+component_id_5
+quantity_5
+component_id_6
+quantity_6
+component_id_7
+quantity_7
+component_id_8
+quantity_8
+
+comp_boss
+
+component_id
+component_type_id
+type
+connection_type_id
+outside_shape
+base_type
+height_over_tube
+bolt_pattern_long
+bolt_pattern_wide
+groove
+base_diameter
+shoulder_diameter
+unique_feature
+orientation
+weight
+
+price_quote
+
+tube_assembly_id
+supplier
+quote_date
+annual_usage
+min_order_quantity
+bracket_pricing
+quantity
+cost
+
+root
+ |-- tube_assembly_id: string (nullable = true)
+ |-- supplier: string (nullable = true)
+ |-- quote_date: string (nullable = true)
+ |-- annual_usage: integer (nullable = true)
+ |-- min_order_quantity: integer (nullable = true)
+ |-- bracket_pricing: string (nullable = true)
+ |-- quantity: integer (nullable = true)
+ |-- cost: double (nullable = true)
+
+root
+ |-- component_id: string (nullable = true)
+ |-- component_type_id: string (nullable = true)
+ |-- type: string (nullable = true)
+ |-- connection_type_id: string (nullable = true)
+ |-- outside_shape: string (nullable = true)
+ |-- base_type: string (nullable = true)
+ |-- height_over_tube: double (nullable = true)
+ |-- bolt_pattern_long: string (nullable = true)
+ |-- bolt_pattern_wide: string (nullable = true)
+ |-- groove: string (nullable = true)
+ |-- base_diameter: string (nullable = true)
+ |-- shoulder_diameter: string (nullable = true)
+ |-- unique_feature: string (nullable = true)
+ |-- orientation: string (nullable = true)
+ |-- weight: string (nullable = true)
+
+root
+ |-- tube_assembly_id: string (nullable = true)
+ |-- component_id_1: string (nullable = true)
+ |-- quantity_1: string (nullable = true)
+ |-- component_id_2: string (nullable = true)
+ |-- quantity_2: string (nullable = true)
+ |-- component_id_3: string (nullable = true)
+ |-- quantity_3: string (nullable = true)
+ |-- component_id_4: string (nullable = true)
+ |-- quantity_4: string (nullable = true)
+ |-- component_id_5: string (nullable = true)
+ |-- quantity_5: string (nullable = true)
+ |-- component_id_6: string (nullable = true)
+ |-- quantity_6: string (nullable = true)
+ |-- component_id_7: string (nullable = true)
+ |-- quantity_7: string (nullable = true)
+ |-- component_id_8: string (nullable = true)
+ |-- quantity_8: string (nullable = true)
+
+
