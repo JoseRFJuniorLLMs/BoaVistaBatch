@@ -1,5 +1,8 @@
 # BoaVistaBatch
 
+# Video de teste:
+https://www.youtube.com/watch?v=BqIhNTtGHqk
+
 # Colab da limpeza dos dados
 https://github.com/GCPBigData/BoaVistaBatch/blob/main/BoaVista.ipynb
 ou
