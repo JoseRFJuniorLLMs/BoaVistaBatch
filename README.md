@@ -7,8 +7,14 @@ Github do projeto Scala Spark
 https://github.com/GCPBigData/BoaVista
 
  ##Arquitetura Usada no Projeto Java
+   Java 11
+   Spring Boot 2.4.0
+   Postgresql 9.4-1200-jdbc41
 
-<img src="./plot/java.png" alt="main"  width=400> <img src="./docs/assets/attribute.gif" alt="main"  width=400>
+<img src="./plot/java.png" alt="main"  width=600> <img src="./docs/assets/attribute.gif" alt="main"  width=400>
+
+##Arquitetura Usada no Projeto Scala Spark
+
 
  #GCP -  Criar uma instância, Postgres 
     
@@ -50,6 +56,7 @@ https://github.com/GCPBigData/BoaVista
     2 - ./mvnw spring-boot:run
     3 - http://seu ip externo:8080/ExecutarJob
     OBS: Quando terminar o carregamento, mostra uma mensagem.
+         Outra maneira e copiar o jar para um bucket, ou via ssh para uma VM.
 
 #Como verificar o status do pipeline
 
