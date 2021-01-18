@@ -11,7 +11,7 @@ https://github.com/GCPBigData/BoaVista
    Spring Boot 2.4.0
    Postgresql 9.4-1200-jdbc41
 
-<img src="./plot/java.png" alt="main"  width=600> <img src="./docs/assets/attribute.gif" alt="main"  width=400>
+<img src="./plot/java.png" alt="main"  width=600> <img src="./docs/assets/attribute.gif" width=600>
 
 ##Arquitetura Usada no Projeto Scala Spark
 
