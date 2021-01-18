@@ -1,124 +1,124 @@
-0,C-0008,CP-018,C-0008,B-005,Round,Flat Bottom,17.0,0.0,0.0,No,22.0,0.0,Yes,Yes,0.032
-1,C-0009,CP-018,C-0009,B-004,Round,Flat Bottom,13.0,0.0,0.0,No,25.0,0.0,No,Yes,0.033
-2,C-0020,CP-018,C-0020,B-005,Round,Saddle,28.4,0.0,0.0,No,35.0,0.0,Yes,Yes,0.07
-3,C-0054,CP-018,C-0054,B-005,Round,Saddle,27.1,0.0,0.0,No,0.0,0.0,Yes,Yes,0.18
-4,C-0071,CP-018,C-0071,B-005,Round,Shoulder,20.0,0.0,0.0,No,30.0,23.0,Yes,Yes,0.08
-5,C-0082,CP-018,C-0082,B-002,Round,Saddle,15.65,0.0,0.0,No,0.0,0.0,Yes,Yes,0.043
-8,C-0111,CP-018,C-0111,B-009,Round,Shoulder,19.0,0.0,0.0,No,35.0,30.0,Yes,Yes,0.1
-9,C-0117,CP-018,C-0117,B-005,Round,Saddle,22.0,0.0,0.0,No,25.4,0.0,No,Yes,0.081
-10,C-0151,CP-018,C-0151,B-005,Round,Saddle,17.9,0.0,0.0,No,0.0,0.0,Yes,Yes,0.047
-12,C-0165,CP-018,C-0165,B-005,Round,Shoulder,12.0,0.0,0.0,No,30.0,25.0,No,Yes,0.046
-13,C-0177,CP-018,C-0177,B-005,Round,Saddle,24.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.122
-14,C-0199,CP-018,C-0199,B-004,Round,Shoulder,23.6,0.0,0.0,No,33.33,23.9,Yes,Yes,0.1
-15,C-0208,CP-018,C-0208,B-002,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,No,Yes,0.023
-16,C-0209,CP-018,C-0209,B-002,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,No,Yes,0.022000000000000002
-17,C-0213,CP-018,C-0213,B-002,Round,Saddle,22.35,0.0,0.0,No,0.0,0.0,No,Yes,0.159
-18,C-0214,CP-018,C-0214,B-002,Round,Saddle,19.05,0.0,0.0,No,0.0,0.0,No,Yes,0.059000000000000004
-19,C-0215,CP-018,C-0215,B-002,Round,Saddle,17.53,0.0,0.0,No,0.0,0.0,No,Yes,0.033
-20,C-0242,CP-018,C-0242,B-005,Round,Flat Bottom,20.0,0.0,0.0,No,32.0,0.0,Yes,Yes,0.08
-22,C-0245,CP-018,C-0245,B-004,Round,Shoulder,20.5,0.0,0.0,No,26.9,20.6,Yes,Yes,0.1
-23,C-0255,CP-018,C-0255,B-005,Round,Saddle,25.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.127
-25,C-0258,CP-018,C-0258,B-005,Round,Saddle,20.9,0.0,0.0,No,0.0,0.0,Yes,Yes,0.192
-26,C-0260,CP-018,C-0260,B-005,Round,Saddle,25.4,0.0,0.0,No,0.0,0.0,Yes,Yes,0.18600000000000003
-27,C-0262,CP-018,C-0262,B-009,Round,Saddle,20.6,0.0,0.0,No,0.0,0.0,Yes,Yes,0.158
-29,C-0274,CP-018,C-0274,B-005,Round,Saddle,39.33,0.0,0.0,No,40.0,0.0,Yes,Yes,0.37799999999999995
-30,C-0278,CP-018,C-0278,B-002,Round,Saddle,14.22,0.0,0.0,No,0.0,0.0,No,Yes,0.015
-32,C-0348,CP-018,C-0348,B-005,Round,Saddle,19.1,0.0,0.0,No,0.0,0.0,Yes,Yes,0.045
-33,C-0356,CP-018,C-0356,B-005,Round,Shoulder,8.0,0.0,0.0,No,35.0,30.0,Yes,Yes,0.12
-34,C-0358,CP-018,C-0358,B-009,Round,Saddle,38.4,0.0,0.0,No,0.0,0.0,Yes,Yes,0.154
-36,C-0393,CP-018,C-0393,B-005,Hex,Shoulder,24.0,0.0,0.0,No,22.0,12.24,Yes,Yes,0.06
-37,C-0405,CP-018,C-0405,B-005,Round,Shoulder,10.0,0.0,0.0,No,30.0,20.0,Yes,Yes,0.05
-38,C-0411,CP-018,C-0411,B-002,Round,Saddle,17.53,0.0,0.0,No,0.0,0.0,No,Yes,0.034
-39,C-0425,CP-018,C-0425,B-004,Round,Shoulder,8.73,0.0,0.0,No,15.88,12.29,No,Yes,0.005
-40,C-0426,CP-018,C-0426,B-004,Round,Shoulder,6.0,0.0,0.0,No,22.0,18.2,No,Yes,0.023
-41,C-0432,CP-018,C-0432,B-004,Round,Saddle,22.23,0.0,0.0,No,38.1,0.0,No,Yes,0.063
-42,C-0474,CP-018,C-0474,B-005,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,No,Yes,0.054000000000000006
-43,C-0475,CP-018,C-0475,B-005,Round,Saddle,15.8,0.0,0.0,No,0.0,0.0,Yes,Yes,0.05
-44,C-0483,CP-018,C-0483,B-004,Round,Saddle,12.0,0.0,0.0,No,0.0,0.0,No,Yes,0.08
-45,C-0486,CP-018,C-0486,B-004,Round,Shoulder,25.4,0.0,0.0,No,38.1,26.9,Yes,Yes,0.114
-46,C-0493,CP-018,C-0493,B-004,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,No,Yes,0.015
-47,C-0495,CP-018,C-0495,B-005,Hex,Saddle,25.4,0.0,0.0,No,0.0,0.0,No,Yes,0.083
-48,C-0497,CP-018,C-0497,B-005,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.052000000000000005
-49,C-0499,CP-018,C-0499,B-005,Hex,Saddle,29.3,0.0,0.0,No,0.0,0.0,No,Yes,0.08199999999999999
-50,C-0502,CP-018,C-0502,B-002,Hex,Saddle,31.9,0.0,0.0,No,0.0,0.0,No,Yes,0.26899999999999996
-51,C-0506,CP-018,C-0506,B-005,Round,Saddle,24.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.09300000000000001
-53,C-0520,CP-018,C-0520,B-005,Round,Shoulder,9.5,0.0,0.0,No,25.0,18.0,Yes,Yes,0.021
-54,C-0533,CP-018,C-0533,B-010,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.026000000000000002
-55,C-0534,CP-018,C-0534,B-005,Round,Saddle,21.6,0.0,0.0,No,0.0,0.0,Yes,Yes,0.217
-56,C-0539,CP-018,C-0539,B-005,Hex,Saddle,14.17,0.0,0.0,No,0.0,0.0,Yes,Yes,0.003
-57,C-0544,CP-018,C-0544,B-002,Round,Saddle,22.35,0.0,0.0,No,33.38,0.0,No,Yes,0.129
-58,C-0547,CP-018,C-0547,B-002,Round,Saddle,14.3,0.0,0.0,No,0.0,0.0,No,Yes,0.012
-59,C-0548,CP-018,C-0548,B-002,Round,Saddle,17.53,0.0,0.0,No,0.0,0.0,No,Yes,0.059000000000000004
-60,C-0549,CP-018,C-0549,B-002,Round,Saddle,17.53,0.0,0.0,No,0.0,0.0,No,Yes,0.059000000000000004
-62,C-0556,CP-018,C-0556,B-002,Round,Saddle,17.53,0.0,0.0,No,18.24,0.0,No,Yes,0.059000000000000004
-63,C-0569,CP-018,C-0569,B-005,Round,Shoulder,15.0,0.0,0.0,No,25.0,22.5,No,Yes,0.037000000000000005
-64,C-0575,CP-018,C-0575,9999,Round,Saddle,21.4,0.0,0.0,No,0.0,0.0,Yes,Yes,0.075
-65,C-0623,CP-018,C-0623,B-002,Round,Saddle,15.8,0.0,0.0,No,0.0,0.0,No,Yes,0.021
-66,C-0624,CP-018,C-0624,B-002,Round,Saddle,19.3,0.0,0.0,No,20.0,0.0,No,Yes,0.06
-69,C-0678,CP-018,C-0678,B-005,Round,Saddle,20.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.11199999999999999
-70,C-0697,CP-018,C-0697,B-002,Round,Saddle,14.2,0.0,0.0,No,0.0,0.0,No,Yes,0.013999999999999999
-71,C-0699,CP-018,C-0699,B-011,Round,Shoulder,17.5,0.0,0.0,No,22.0,18.0,No,Yes,0.044000000000000004
-72,C-0700,CP-018,C-0700,B-002,Hex,Saddle,36.6,0.0,0.0,No,0.0,0.0,No,Yes,0.265
-73,C-0701,CP-018,C-0701,B-002,Hex,Saddle,37.6,0.0,0.0,No,0.0,0.0,No,Yes,0.19399999999999998
-74,C-0723,CP-018,C-0723,B-004,Round,Saddle,16.6,0.0,0.0,No,0.0,0.0,Yes,Yes,0.076
-75,C-0755,CP-018,C-0755,B-005,Round,Saddle,18.8,0.0,0.0,No,32.0,0.0,Yes,Yes,2.62
-78,C-0791,CP-018,C-0791,B-002,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,No,Yes,0.034
-82,C-0816,CP-018,C-0816,B-005,Round,Saddle,18.54,0.0,0.0,No,0.0,0.0,Yes,Yes,0.071
-83,C-0817,CP-018,C-0817,B-005,Round,Saddle,18.54,0.0,0.0,No,31.75,0.0,No,Yes,0.069
-84,C-0837,CP-018,C-0837,B-004,Round,Flat Bottom,20.0,0.0,0.0,No,25.0,0.0,No,Yes,0.059000000000000004
-85,C-0854,CP-018,C-0854,B-004,Round,Shoulder,11.5,0.0,0.0,No,25.4,19.0,No,Yes,0.040999999999999995
-87,C-0893,CP-018,C-0893,B-005,Round,Saddle,25.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.31
-89,C-0920,CP-018,C-0920,B-009,Round,Flat Bottom,17.0,0.0,0.0,No,28.8,0.0,No,Yes,0.077
-90,C-0930,CP-018,C-0930,9999,Round,Saddle,24.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.122
-91,C-0965,CP-018,C-0965,B-005,Round,Saddle,39.6,0.0,0.0,No,50.0,0.0,Yes,Yes,0.5
-92,C-1029,CP-018,C-1029,B-005,Round,Saddle,45.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.41100000000000003
-93,C-1045,CP-018,C-1045,B-002,Hex,Saddle,25.66,0.0,0.0,No,0.0,0.0,No,Yes,0.01
-95,C-1089,CP-018,C-1089,B-009,Round,Flat Bottom,12.5,0.0,0.0,No,18.0,0.0,No,Yes,0.037000000000000005
-96,C-1117,CP-018,C-1117,B-005,Round,Saddle,38.1,0.0,0.0,No,50.8,0.0,No,Yes,0.523
-97,C-1123,CP-018,C-1123,B-009,Round,Saddle,15.5,0.0,0.0,No,0.0,0.0,No,Yes,0.149
-98,C-1124,CP-018,C-1124,B-009,Round,Saddle,15.5,0.0,0.0,No,0.0,0.0,No,Yes,0.08
-99,C-1127,CP-018,C-1127,B-009,Round,Saddle,15.5,0.0,0.0,No,0.0,0.0,No,Yes,0.075
-100,C-1171,CP-018,C-1171,B-005,Round,Saddle,20.05,0.0,0.0,No,44.45,0.0,No,Yes,0.149
-101,C-1225,CP-018,C-1225,B-004,Round,Saddle,12.7,0.0,0.0,No,0.0,0.0,No,Yes,0.0
-102,C-1231,CP-018,C-1231,B-004,Round,Saddle,12.7,0.0,0.0,No,0.0,0.0,No,Yes,0.015
-103,C-1233,CP-018,C-1233,B-004,Round,Saddle,12.7,0.0,0.0,No,0.0,0.0,No,Yes,0.057999999999999996
-104,C-1256,CP-018,C-1256,B-005,Round,Shoulder,13.0,0.0,0.0,No,40.0,29.0,Yes,Yes,0.14
-105,C-1257,CP-018,C-1257,B-005,Round,Shoulder,10.0,0.0,0.0,No,25.0,18.0,No,Yes,0.06
-106,C-1259,CP-018,C-1259,B-004,Round,Saddle,15.0,0.0,0.0,No,0.0,0.0,No,Yes,0.215
-108,C-1340,CP-018,C-1340,B-005,Round,Shoulder,18.3,0.0,0.0,No,44.45,40.13,Yes,Yes,0.146
-109,C-1410,CP-018,C-1410,B-004,Round,Flat Bottom,22.23,0.0,0.0,No,31.75,0.0,No,Yes,0.005
-110,C-1411,CP-018,C-1411,B-004,Round,Flat Bottom,18.3,0.0,0.0,No,25.0,0.0,No,Yes,0.057
-111,C-1417,CP-018,C-1417,B-004,Round,Saddle,12.7,0.0,0.0,No,0.0,0.0,No,Yes,0.034
-112,C-1426,CP-018,C-1426,B-005,Round,Shoulder,17.53,0.0,0.0,No,31.75,24.61,Yes,Yes,0.071
-113,C-1431,CP-018,C-1431,B-005,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,Yes,Yes,0.1
-114,C-1489,CP-018,C-1489,B-004,Round,Flat Bottom,15.7,0.0,0.0,No,25.0,0.0,No,Yes,0.04
-116,C-1503,CP-018,C-1503,B-005,Round,Saddle,26.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.455
-117,C-1505,CP-018,C-1505,B-004,Round,Shoulder,4.76,0.0,0.0,No,25.4,22.22,No,Yes,0.045
-118,C-1506,CP-018,C-1506,B-004,Round,Shoulder,9.53,0.0,0.0,No,22.22,18.26,No,Yes,0.021
-119,C-1507,CP-018,C-1507,B-005,Round,Saddle,19.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.15
-120,C-1535,CP-018,C-1535,B-005,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,Yes,Yes,0.052000000000000005
-121,C-1536,CP-018,C-1536,B-005,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,Yes,Yes,0.052000000000000005
-122,C-1537,CP-018,C-1537,B-005,Round,Shoulder,16.76,0.0,0.0,No,31.75,27.43,Yes,Yes,0.084
-123,C-1557,CP-018,C-1557,B-004,Round,Flat Bottom,38.1,0.0,0.0,No,20.64,0.0,No,Yes,0.091
-124,C-1579,CP-018,C-1579,B-004,Round,Flat Bottom,31.75,0.0,0.0,No,25.4,0.0,Yes,Yes,0.114
-125,C-1697,CP-018,C-1697,B-005,Round,Shoulder,20.5,0.0,0.0,No,25.0,17.8,Yes,Yes,0.066
-126,C-1698,CP-018,C-1698,B-005,Round,Shoulder,20.5,0.0,0.0,No,28.0,21.8,Yes,Yes,0.073
-127,C-1699,CP-018,C-1699,B-005,Round,Shoulder,25.5,0.0,0.0,No,35.0,23.8,Yes,Yes,0.083
-128,C-1707,CP-018,C-1707,B-005,Round,Shoulder,23.0,0.0,0.0,No,45.0,34.9,Yes,Yes,0.182
-129,C-1708,CP-018,C-1708,B-005,Round,Shoulder,11.0,0.0,0.0,No,30.0,27.7,No,Yes,0.052000000000000005
-130,C-1725,CP-018,C-1725,B-005,Round,Saddle,23.11,0.0,0.0,No,0.0,0.0,No,Yes,0.24
-131,C-1729,CP-018,C-1729,B-005,Round,Saddle,50.4,0.0,0.0,No,0.0,0.0,Yes,Yes,0.223
-132,C-1731,CP-018,C-1731,B-004,Round,Shoulder,8.89,0.0,0.0,No,25.4,12.29,No,Yes,0.0
-133,C-1764,CP-018,C-1764,B-004,Round,Flat Bottom,10.0,0.0,0.0,No,14.0,0.0,No,Yes,0.009000000000000001
-134,C-1780,CP-018,C-1780,B-005,Round,Shoulder,20.0,0.0,0.0,No,25.0,15.0,Yes,Yes,0.06
-135,C-1833,CP-018,C-1833,B-005,Round,Shoulder,12.3,0.0,0.0,No,60.0,52.37,Yes,Yes,0.223
-136,C-1839,CP-018,C-1839,B-005,Round,Saddle,15.75,0.0,0.0,No,25.4,0.0,Yes,Yes,0.055
-137,C-1862,CP-018,C-1862,B-004,Round,Flat Bottom,19.0,0.0,0.0,No,25.0,0.0,No,Yes,0.091
-139,C-1924,CP-018,C-1924,B-004,Round,Saddle,15.0,0.0,0.0,No,0.0,0.0,No,Yes,0.09
-140,C-1925,CP-018,C-1925,B-005,Round,Saddle,20.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.19699999999999998
-141,C-1928,CP-018,C-1928,B-005,Round,Saddle,15.8,0.0,0.0,No,0.0,0.0,Yes,Yes,0.079
-142,C-1970,CP-018,C-1970,B-004,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,No,Yes,0.032
-143,C-1973,CP-018,C-1973,B-004,Round,Saddle,19.05,0.0,0.0,No,31.75,0.0,No,Yes,0.05
-144,C-1974,CP-018,C-1974,B-004,Round,Saddle,31.75,0.0,0.0,No,0.0,0.0,No,Yes,2.375
-145,C-1988,CP-018,C-1988,B-005,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,No,Yes,0.055
-146,C-1990,CP-018,C-1990,B-005,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.2
+0,C-0008,CP-018,Boss,B-005,Round,Flat Bottom,17.0,0.0,0.0,No,22.0,0.0,Yes,Yes,0.032
+1,C-0009,CP-018,Boss,B-004,Round,Flat Bottom,13.0,0.0,0.0,No,25.0,0.0,No,Yes,0.033
+2,C-0020,CP-018,Boss,B-005,Round,Saddle,28.4,0.0,0.0,No,35.0,0.0,Yes,Yes,0.07
+3,C-0054,CP-018,Boss,B-005,Round,Saddle,27.1,0.0,0.0,No,0.0,0.0,Yes,Yes,0.18
+4,C-0071,CP-018,Boss,B-005,Round,Shoulder,20.0,0.0,0.0,No,30.0,23.0,Yes,Yes,0.08
+5,C-0082,CP-018,Boss,B-002,Round,Saddle,15.65,0.0,0.0,No,0.0,0.0,Yes,Yes,0.043
+8,C-0111,CP-018,Boss,B-009,Round,Shoulder,19.0,0.0,0.0,No,35.0,30.0,Yes,Yes,0.1
+9,C-0117,CP-018,Boss,B-005,Round,Saddle,22.0,0.0,0.0,No,25.4,0.0,No,Yes,0.081
+10,C-0151,CP-018,Boss,B-005,Round,Saddle,17.9,0.0,0.0,No,0.0,0.0,Yes,Yes,0.047
+12,C-0165,CP-018,Boss,B-005,Round,Shoulder,12.0,0.0,0.0,No,30.0,25.0,No,Yes,0.046
+13,C-0177,CP-018,Boss,B-005,Round,Saddle,24.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.122
+14,C-0199,CP-018,Boss,B-004,Round,Shoulder,23.6,0.0,0.0,No,33.33,23.9,Yes,Yes,0.1
+15,C-0208,CP-018,Stud,B-002,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,No,Yes,0.023
+16,C-0209,CP-018,Stud,B-002,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,No,Yes,0.022
+17,C-0213,CP-018,Stud,B-002,Round,Saddle,22.35,0.0,0.0,No,0.0,0.0,No,Yes,0.159
+18,C-0214,CP-018,Stud,B-002,Round,Saddle,19.05,0.0,0.0,No,0.0,0.0,No,Yes,0.059
+19,C-0215,CP-018,Stud,B-002,Round,Saddle,17.53,0.0,0.0,No,0.0,0.0,No,Yes,0.033
+20,C-0242,CP-018,Boss,B-005,Round,Flat Bottom,20.0,0.0,0.0,No,32.0,0.0,Yes,Yes,0.08
+22,C-0245,CP-018,Boss,B-004,Round,Shoulder,20.5,0.0,0.0,No,26.9,20.6,Yes,Yes,0.1
+23,C-0255,CP-018,Boss,B-005,Round,Saddle,25.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.127
+25,C-0258,CP-018,Boss,B-005,Round,Saddle,20.9,0.0,0.0,No,0.0,0.0,Yes,Yes,0.192
+26,C-0260,CP-018,Boss,B-005,Round,Saddle,25.4,0.0,0.0,No,0.0,0.0,Yes,Yes,0.186
+27,C-0262,CP-018,Boss,B-009,Round,Saddle,20.6,0.0,0.0,No,0.0,0.0,Yes,Yes,0.158
+29,C-0274,CP-018,Boss,B-005,Round,Saddle,39.33,0.0,0.0,No,40.0,0.0,Yes,Yes,0.378
+30,C-0278,CP-018,Stud,B-002,Round,Saddle,14.22,0.0,0.0,No,0.0,0.0,No,Yes,0.015
+32,C-0348,CP-018,Boss,B-005,Round,Saddle,19.1,0.0,0.0,No,0.0,0.0,Yes,Yes,0.045
+33,C-0356,CP-018,Boss,B-005,Round,Shoulder,8.0,0.0,0.0,No,35.0,30.0,Yes,Yes,0.12
+34,C-0358,CP-018,Boss,B-009,Round,Saddle,38.4,0.0,0.0,No,0.0,0.0,Yes,Yes,0.154
+36,C-0393,CP-018,Boss,B-005,Hex,Shoulder,24.0,0.0,0.0,No,22.0,12.24,Yes,Yes,0.06
+37,C-0405,CP-018,Boss,B-005,Round,Shoulder,10.0,0.0,0.0,No,30.0,20.0,Yes,Yes,0.05
+38,C-0411,CP-018,Stud,B-002,Round,Saddle,17.53,0.0,0.0,No,0.0,0.0,No,Yes,0.034
+39,C-0425,CP-018,Boss,B-004,Round,Shoulder,8.73,0.0,0.0,No,15.88,12.29,No,Yes,0.005
+40,C-0426,CP-018,Boss,B-004,Round,Shoulder,6.0,0.0,0.0,No,22.0,18.2,No,Yes,0.023
+41,C-0432,CP-018,Boss,B-004,Round,Saddle,22.23,0.0,0.0,No,38.1,0.0,No,Yes,0.063
+42,C-0474,CP-018,Boss,B-005,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,No,Yes,0.054
+43,C-0475,CP-018,Boss,B-005,Round,Saddle,15.8,0.0,0.0,No,0.0,0.0,Yes,Yes,0.05
+44,C-0483,CP-018,Boss,B-004,Round,Saddle,12.0,0.0,0.0,No,0.0,0.0,No,Yes,0.08
+45,C-0486,CP-018,Boss,B-004,Round,Shoulder,25.4,0.0,0.0,No,38.1,26.9,Yes,Yes,0.114
+46,C-0493,CP-018,Boss,B-004,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,No,Yes,0.015
+47,C-0495,CP-018,Boss,B-005,Hex,Saddle,25.4,0.0,0.0,No,0.0,0.0,No,Yes,0.083
+48,C-0497,CP-018,Boss,B-005,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.052
+49,C-0499,CP-018,Boss,B-005,Hex,Saddle,29.3,0.0,0.0,No,0.0,0.0,No,Yes,0.082
+50,C-0502,CP-018,Stud,B-002,Hex,Saddle,31.9,0.0,0.0,No,0.0,0.0,No,Yes,0.269
+51,C-0506,CP-018,Boss,B-005,Round,Saddle,24.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.093
+53,C-0520,CP-018,Boss,B-005,Round,Shoulder,9.5,0.0,0.0,No,25.0,18.0,Yes,Yes,0.021
+54,C-0533,CP-018,Boss,B-010,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.026
+55,C-0534,CP-018,Boss,B-005,Round,Saddle,21.6,0.0,0.0,No,0.0,0.0,Yes,Yes,0.217
+56,C-0539,CP-018,Boss,B-005,Hex,Saddle,14.17,0.0,0.0,No,0.0,0.0,Yes,Yes,0.003
+57,C-0544,CP-018,Stud,B-002,Round,Saddle,22.35,0.0,0.0,No,33.38,0.0,No,Yes,0.129
+58,C-0547,CP-018,Stud,B-002,Round,Saddle,14.3,0.0,0.0,No,0.0,0.0,No,Yes,0.012
+59,C-0548,CP-018,Stud,B-002,Round,Saddle,17.53,0.0,0.0,No,0.0,0.0,No,Yes,0.059
+60,C-0549,CP-018,Stud,B-002,Round,Saddle,17.53,0.0,0.0,No,0.0,0.0,No,Yes,0.059
+62,C-0556,CP-018,Stud,B-002,Round,Saddle,17.53,0.0,0.0,No,18.24,0.0,No,Yes,0.059
+63,C-0569,CP-018,Boss,B-005,Round,Shoulder,15.0,0.0,0.0,No,25.0,22.5,No,Yes,0.037
+64,C-0575,CP-018,Boss,9999,Round,Saddle,21.4,0.0,0.0,No,0.0,0.0,Yes,Yes,0.075
+65,C-0623,CP-018,Stud,B-002,Round,Saddle,15.8,0.0,0.0,No,0.0,0.0,No,Yes,0.021
+66,C-0624,CP-018,Stud,B-002,Round,Saddle,19.3,0.0,0.0,No,20.0,0.0,No,Yes,0.06
+69,C-0678,CP-018,Boss,B-005,Round,Saddle,20.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.112
+70,C-0697,CP-018,Stud,B-002,Round,Saddle,14.2,0.0,0.0,No,0.0,0.0,No,Yes,0.014
+71,C-0699,CP-018,Boss,B-011,Round,Shoulder,17.5,0.0,0.0,No,22.0,18.0,No,Yes,0.044
+72,C-0700,CP-018,Stud,B-002,Hex,Saddle,36.6,0.0,0.0,No,0.0,0.0,No,Yes,0.265
+73,C-0701,CP-018,Stud,B-002,Hex,Saddle,37.6,0.0,0.0,No,0.0,0.0,No,Yes,0.194
+74,C-0723,CP-018,Boss,B-004,Round,Saddle,16.6,0.0,0.0,No,0.0,0.0,Yes,Yes,0.076
+75,C-0755,CP-018,Boss,B-005,Round,Saddle,18.8,0.0,0.0,No,32.0,0.0,Yes,Yes,2.62
+78,C-0791,CP-018,Stud,B-002,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,No,Yes,0.034
+82,C-0816,CP-018,Boss,B-005,Round,Saddle,18.54,0.0,0.0,No,0.0,0.0,Yes,Yes,0.071
+83,C-0817,CP-018,Boss,B-005,Round,Saddle,18.54,0.0,0.0,No,31.75,0.0,No,Yes,0.069
+84,C-0837,CP-018,Boss,B-004,Round,Flat Bottom,20.0,0.0,0.0,No,25.0,0.0,No,Yes,0.059
+85,C-0854,CP-018,Boss,B-004,Round,Shoulder,11.5,0.0,0.0,No,25.4,19.0,No,Yes,0.041
+87,C-0893,CP-018,Boss,B-005,Round,Saddle,25.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.31
+89,C-0920,CP-018,Boss,B-009,Round,Flat Bottom,17.0,0.0,0.0,No,28.8,0.0,No,Yes,0.077
+90,C-0930,CP-018,Boss,9999,Round,Saddle,24.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.122
+91,C-0965,CP-018,Boss,B-005,Round,Saddle,39.6,0.0,0.0,No,50.0,0.0,Yes,Yes,0.5
+92,C-1029,CP-018,Boss,B-005,Round,Saddle,45.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.411
+93,C-1045,CP-018,Stud,B-002,Hex,Saddle,25.66,0.0,0.0,No,0.0,0.0,No,Yes,0.01
+95,C-1089,CP-018,Boss,B-009,Round,Flat Bottom,12.5,0.0,0.0,No,18.0,0.0,No,Yes,0.037
+96,C-1117,CP-018,Boss,B-005,Round,Saddle,38.1,0.0,0.0,No,50.8,0.0,No,Yes,0.523
+97,C-1123,CP-018,Boss,B-009,Round,Saddle,15.5,0.0,0.0,No,0.0,0.0,No,Yes,0.149
+98,C-1124,CP-018,Boss,B-009,Round,Saddle,15.5,0.0,0.0,No,0.0,0.0,No,Yes,0.08
+99,C-1127,CP-018,Boss,B-009,Round,Saddle,15.5,0.0,0.0,No,0.0,0.0,No,Yes,0.075
+100,C-1171,CP-018,Boss,B-005,Round,Saddle,20.05,0.0,0.0,No,44.45,0.0,No,Yes,0.149
+101,C-1225,CP-018,Boss,B-004,Round,Saddle,12.7,0.0,0.0,No,0.0,0.0,No,Yes,0.0
+102,C-1231,CP-018,Boss,B-004,Round,Saddle,12.7,0.0,0.0,No,0.0,0.0,No,Yes,0.015
+103,C-1233,CP-018,Boss,B-004,Round,Saddle,12.7,0.0,0.0,No,0.0,0.0,No,Yes,0.058
+104,C-1256,CP-018,Boss,B-005,Round,Shoulder,13.0,0.0,0.0,No,40.0,29.0,Yes,Yes,0.14
+105,C-1257,CP-018,Boss,B-005,Round,Shoulder,10.0,0.0,0.0,No,25.0,18.0,No,Yes,0.06
+106,C-1259,CP-018,Boss,B-004,Round,Saddle,15.0,0.0,0.0,No,0.0,0.0,No,Yes,0.215
+108,C-1340,CP-018,Boss,B-005,Round,Shoulder,18.3,0.0,0.0,No,44.45,40.13,Yes,Yes,0.146
+109,C-1410,CP-018,Boss,B-004,Round,Flat Bottom,22.23,0.0,0.0,No,31.75,0.0,No,Yes,0.005
+110,C-1411,CP-018,Boss,B-004,Round,Flat Bottom,18.3,0.0,0.0,No,25.0,0.0,No,Yes,0.057
+111,C-1417,CP-018,Boss,B-004,Round,Saddle,12.7,0.0,0.0,No,0.0,0.0,No,Yes,0.034
+112,C-1426,CP-018,Boss,B-005,Round,Shoulder,17.53,0.0,0.0,No,31.75,24.61,Yes,Yes,0.071
+113,C-1431,CP-018,Boss,B-005,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,Yes,Yes,0.1
+114,C-1489,CP-018,Boss,B-004,Round,Flat Bottom,15.7,0.0,0.0,No,25.0,0.0,No,Yes,0.04
+116,C-1503,CP-018,Boss,B-005,Round,Saddle,26.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.455
+117,C-1505,CP-018,Boss,B-004,Round,Shoulder,4.76,0.0,0.0,No,25.4,22.22,No,Yes,0.045
+118,C-1506,CP-018,Boss,B-004,Round,Shoulder,9.53,0.0,0.0,No,22.22,18.26,No,Yes,0.021
+119,C-1507,CP-018,Boss,B-005,Round,Saddle,19.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.15
+120,C-1535,CP-018,Boss,B-005,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,Yes,Yes,0.052
+121,C-1536,CP-018,Boss,B-005,Round,Saddle,15.75,0.0,0.0,No,0.0,0.0,Yes,Yes,0.052
+122,C-1537,CP-018,Boss,B-005,Round,Shoulder,16.76,0.0,0.0,No,31.75,27.43,Yes,Yes,0.084
+123,C-1557,CP-018,Boss,B-004,Round,Flat Bottom,38.1,0.0,0.0,No,20.64,0.0,No,Yes,0.091
+124,C-1579,CP-018,Boss,B-004,Round,Flat Bottom,31.75,0.0,0.0,No,25.4,0.0,Yes,Yes,0.114
+125,C-1697,CP-018,Boss,B-005,Round,Shoulder,20.5,0.0,0.0,No,25.0,17.8,Yes,Yes,0.066
+126,C-1698,CP-018,Boss,B-005,Round,Shoulder,20.5,0.0,0.0,No,28.0,21.8,Yes,Yes,0.073
+127,C-1699,CP-018,Boss,B-005,Round,Shoulder,25.5,0.0,0.0,No,35.0,23.8,Yes,Yes,0.083
+128,C-1707,CP-018,Boss,B-005,Round,Shoulder,23.0,0.0,0.0,No,45.0,34.9,Yes,Yes,0.182
+129,C-1708,CP-018,Boss,B-005,Round,Shoulder,11.0,0.0,0.0,No,30.0,27.7,No,Yes,0.052
+130,C-1725,CP-018,Boss,B-005,Round,Saddle,23.11,0.0,0.0,No,0.0,0.0,No,Yes,0.24
+131,C-1729,CP-018,Boss,B-005,Round,Saddle,50.4,0.0,0.0,No,0.0,0.0,Yes,Yes,0.223
+132,C-1731,CP-018,Boss,B-004,Round,Shoulder,8.89,0.0,0.0,No,25.4,12.29,No,Yes,0.0
+133,C-1764,CP-018,Boss,B-004,Round,Flat Bottom,10.0,0.0,0.0,No,14.0,0.0,No,Yes,0.009
+134,C-1780,CP-018,Boss,B-005,Round,Shoulder,20.0,0.0,0.0,No,25.0,15.0,Yes,Yes,0.06
+135,C-1833,CP-018,Boss,B-005,Round,Shoulder,12.3,0.0,0.0,No,60.0,52.37,Yes,Yes,0.223
+136,C-1839,CP-018,Boss,B-005,Round,Saddle,15.75,0.0,0.0,No,25.4,0.0,Yes,Yes,0.055
+137,C-1862,CP-018,Boss,B-004,Round,Flat Bottom,19.0,0.0,0.0,No,25.0,0.0,No,Yes,0.091
+139,C-1924,CP-018,Boss,B-004,Round,Saddle,15.0,0.0,0.0,No,0.0,0.0,No,Yes,0.09
+140,C-1925,CP-018,Boss,B-005,Round,Saddle,20.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.197
+141,C-1928,CP-018,Boss,B-005,Round,Saddle,15.8,0.0,0.0,No,0.0,0.0,Yes,Yes,0.079
+142,C-1970,CP-018,Boss,B-004,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,No,Yes,0.032
+143,C-1973,CP-018,Boss,B-004,Round,Saddle,19.05,0.0,0.0,No,31.75,0.0,No,Yes,0.05
+144,C-1974,CP-018,Boss,B-004,Round,Saddle,31.75,0.0,0.0,No,0.0,0.0,No,Yes,2.375
+145,C-1988,CP-018,Boss,B-005,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,No,Yes,0.055
+146,C-1990,CP-018,Boss,B-005,Round,Saddle,16.0,0.0,0.0,No,0.0,0.0,Yes,Yes,0.2

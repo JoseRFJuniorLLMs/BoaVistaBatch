@@ -2,6 +2,8 @@
 
 # Colab da limpeza dos dados
 https://github.com/GCPBigData/BoaVistaBatch/blob/main/BoaVista.ipynb
+ou
+https://colab.research.google.com/drive/1h_QnVIqBgIDZLOkmKvaU7O886HWMBsTO#scrollTo=w7JOWLpmXod6
 
 # Github do projeto Scala Spark
 https://github.com/GCPBigData/BoaVista
