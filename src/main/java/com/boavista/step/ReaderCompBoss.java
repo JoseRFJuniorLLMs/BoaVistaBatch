@@ -17,7 +17,8 @@ public class ReaderCompBoss {
             {
                 setLineTokenizer(new DelimitedLineTokenizer() {
                     {
-                        setNames(new String[] {"id","component_type_id","type","connection_type_id","outside_shape","base_type","height_over_tube","bolt_pattern_long","bolt_pattern_wide","groove","base_diameter","shoulder_diameter","unique_feature","orientation","weight"});
+                        setNames(new String[] {"id","component_id","component_type_id","type","connection_type_id","outside_shape","base_type","height_over_tube",
+                                "bolt_pattern_long","bolt_pattern_wide","groove","base_diameter","shoulder_diameter","unique_feature","orientation","weight"});
                     }
                 });
                 setFieldSetMapper(new BeanWrapperFieldSetMapper<CompBoss>() {

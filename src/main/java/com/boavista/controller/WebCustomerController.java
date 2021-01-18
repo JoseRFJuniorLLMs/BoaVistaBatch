@@ -20,6 +20,9 @@ public class WebCustomerController {
 	@Autowired
 	JobLauncher jobLauncherPrice;
 
+	@Autowired
+	JobLauncher jobLauncherCompBoss;
+
 	@Qualifier("jobCustomer")
 	@Autowired
 	Job jobCustomer;
@@ -28,7 +31,11 @@ public class WebCustomerController {
 	@Autowired
 	Job jobPrice;
 
-	@RequestMapping("/JobCustomer")
+	@Qualifier("jobCompBoss")
+	@Autowired
+	Job jobCompBoss;
+
+	@RequestMapping("/ExecutarJob")
 	public String handle() throws Exception {
 		Logger logger = LoggerFactory.getLogger(this.getClass());
 		try {
@@ -44,9 +51,15 @@ public class WebCustomerController {
 					.toJobParameters();
 			jobLauncherPrice.run(jobPrice, jobParametersPrice);
 
+			//Executa CompBoss
+			JobParameters jobParametersCompBoss = new JobParametersBuilder()
+					.addLong("time", System.currentTimeMillis())
+					.toJobParameters();
+			jobLauncherCompBoss.run(jobCompBoss, jobParametersCompBoss);
+
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 		}
-		return "Feito verifique o Console";
+		return "Executando, verifique o LOG >> " +(System.currentTimeMillis());
 	}
 }

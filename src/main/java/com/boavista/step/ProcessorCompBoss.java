@@ -13,6 +13,7 @@ public class ProcessorCompBoss implements ItemProcessor<CompBoss, CompBoss> {
     public CompBoss process(CompBoss compBoss) throws Exception {
 
         final Long id = compBoss.getId();
+        final String componentid = compBoss.getComponentid();
         final String componenttypeid = compBoss.getComponenttypeid();
         final String type = compBoss.getType();
         final String connectiontypeid = compBoss.getConnectiontypeid();
@@ -28,7 +29,7 @@ public class ProcessorCompBoss implements ItemProcessor<CompBoss, CompBoss> {
         final String orientation = compBoss.getOrientation();
         final String weight = compBoss.getWeight();
 
-        final CompBoss fixedCompBoss = new CompBoss(id, componenttypeid, type, connectiontypeid, outsideshape, basetype, heightovertube,
+        final CompBoss fixedCompBoss = new CompBoss(id, componentid, componenttypeid, type, connectiontypeid, outsideshape, basetype, heightovertube,
                 boltpatternlong, boltpatternwide, groove, basediameter, shoulderdiameter, uniquefeature, orientation, weight );
 
         log.info("Converting (" + compBoss + ") into (" + fixedCompBoss + ")");

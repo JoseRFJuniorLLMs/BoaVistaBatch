@@ -30,7 +30,7 @@ public class BatchConfigCompBoss {
     public CompBossDao compBossDao;
 
     @Bean
-    public Job jobComBoss() {
+    public Job jobCompBoss() {
         return jobBuilderFactory.get("jobComBoss")
                 .incrementer(new RunIdIncrementer())
                 .listener(new ListenerCompBoss(compBossDao))

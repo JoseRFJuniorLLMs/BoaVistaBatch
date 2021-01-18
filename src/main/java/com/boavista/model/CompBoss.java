@@ -2,11 +2,9 @@ package com.boavista.model;
 
 import lombok.*;
 
-import java.io.Serializable;
 import javax.persistence.*;
+import java.io.Serializable;
 
-@Entity
-@Table(name = "comp_boss",schema = "public")
 @ToString(exclude="id")
 @EqualsAndHashCode
 @Data
@@ -14,6 +12,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Builder
 @With
+@Entity
+@Table(name = "compboss",schema = "public")
 public class CompBoss implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -22,6 +22,9 @@ public class CompBoss implements Serializable {
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
+
+    @Column(name = "component_id")
+    private String componentid;
 
     @Column(name = "component_type_id")
     private String componenttypeid;

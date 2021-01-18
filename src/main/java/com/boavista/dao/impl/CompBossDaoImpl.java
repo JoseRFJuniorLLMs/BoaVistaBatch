@@ -29,25 +29,28 @@ public class CompBossDaoImpl extends JdbcDaoSupport implements CompBossDao {
     @Override
     public void insert(List<? extends CompBoss> compBosses) {
 
-        String sql = "INSERT INTO compboss " + "( id, componenttypeid, connectiontypeid, outsideshape, basetype, heightovertube, " +
-                "boltpatternlong, boltpatternwide, basediameter, shoulderdiameter, uniquefeature, orientation, weight) " +
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,)";
+        String sql = "INSERT INTO compboss " + "( id, component_id, component_type_id, type, connection_type_id, outside_shape, base_type, height_over_tube, " +
+                "bolt_pattern_long, bolt_pattern_wide, groove, base_diameter, shoulder_diameter, unique_feature, orientation, weight) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? , ?)";
         getJdbcTemplate().batchUpdate(sql, new BatchPreparedStatementSetter() {
             public void setValues(PreparedStatement ps, int i) throws SQLException {
                 CompBoss compBoss = compBosses.get(i);
                 ps.setLong(1, compBoss.getId());
-                ps.setString(2, compBoss.getComponenttypeid());
-                ps.setString(3, compBoss.getConnectiontypeid());
-                ps.setString(4, compBoss.getOutsideshape());
-                ps.setString(5, compBoss.getBasetype());
-                ps.setString(6, compBoss.getHeightovertube());
-                ps.setString(7, compBoss.getBoltpatternlong());
-                ps.setString(8, compBoss.getBoltpatternwide());
-                ps.setString(9, compBoss.getBasediameter());
-                ps.setString(10, compBoss.getShoulderdiameter());
-                ps.setString(11, compBoss.getUniquefeature());
-                ps.setString(12, compBoss.getOrientation());
-                ps.setString(13, compBoss.getWeight());
+                ps.setString(2, compBoss.getComponentid());
+                ps.setString(3, compBoss.getComponenttypeid());
+                ps.setString(4, compBoss.getType());
+                ps.setString(5, compBoss.getConnectiontypeid());
+                ps.setString(6, compBoss.getOutsideshape());
+                ps.setString(7, compBoss.getBasetype());
+                ps.setString(8, compBoss.getHeightovertube());
+                ps.setString(9, compBoss.getBoltpatternlong());
+                ps.setString(10, compBoss.getBoltpatternwide());
+                ps.setString(11, compBoss.getGroove());
+                ps.setString(12, compBoss.getBasediameter());
+                ps.setString(13, compBoss.getShoulderdiameter());
+                ps.setString(14, compBoss.getUniquefeature());
+                ps.setString(15, compBoss.getOrientation());
+                ps.setString(16, compBoss.getWeight());
 
             }
             public int getBatchSize() {
