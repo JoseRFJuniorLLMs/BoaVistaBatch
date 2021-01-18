@@ -1,7 +1,6 @@
 package com.boavista.step;
 
 import com.boavista.model.Bill;
-import com.boavista.model.Bill;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemProcessor;

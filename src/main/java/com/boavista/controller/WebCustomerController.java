@@ -23,6 +23,9 @@ public class WebCustomerController {
 	@Autowired
 	JobLauncher jobLauncherCompBoss;
 
+	@Autowired
+	JobLauncher jobLauncherBill;
+
 	@Qualifier("jobCustomer")
 	@Autowired
 	Job jobCustomer;
@@ -34,6 +37,10 @@ public class WebCustomerController {
 	@Qualifier("jobCompBoss")
 	@Autowired
 	Job jobCompBoss;
+
+	@Qualifier("jobBill")
+	@Autowired
+	Job jobBill;
 
 	@RequestMapping("/ExecutarJob")
 	public String handle() throws Exception {
@@ -56,6 +63,12 @@ public class WebCustomerController {
 					.addLong("time", System.currentTimeMillis())
 					.toJobParameters();
 			jobLauncherCompBoss.run(jobCompBoss, jobParametersCompBoss);
+
+			//Executa Bill
+			JobParameters jobParametersBill = new JobParametersBuilder()
+					.addLong("time", System.currentTimeMillis())
+					.toJobParameters();
+			jobLauncherBill.run(jobBill, jobParametersBill);
 
 		} catch (Exception e) {
 			logger.info(e.getMessage());

@@ -27,17 +27,17 @@ public class BatchConfigBill {
     public BillDao bill;
 
     @Bean
-    public Job jobPrice() {
-        return jobBuilderFactory.get("jobPrice")
+    public Job jobBill() {
+        return jobBuilderFactory.get("jobBill")
                 .incrementer(new RunIdIncrementer())
                 .listener(new ListenerBill(bill))
-                .flow(step1()).end().build();
+                .flow(step4()).end().build();
     }
 
     @Bean
-    public Step step1() {
-        return stepBuilderFactory.get("step1").<Bill, Bill>chunk(2)
-                .reader(ReaderBill.reader("bill_off_materials.csv"))
+    public Step step4() {
+        return stepBuilderFactory.get("step4").<Bill, Bill>chunk(2)
+                .reader(ReaderBill.reader("bill_of_materials.csv"))
                 .processor(new ProcessorBill())
                 .writer(new WriterBill(bill))
                 .build();
