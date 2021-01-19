@@ -4,7 +4,7 @@
 https://www.youtube.com/watch?v=BqIhNTtGHqk
 
 # Colab da limpeza dos dados
-https://github.com/GCPBigData/BoaVista/BoaVista.ipynb
+https://github.com/GCPBigData/BoaVista/blob/main/BoaVista.ipynb
 ou
 https://colab.research.google.com/drive/1h_QnVIqBgIDZLOkmKvaU7O886HWMBsTO#scrollTo=w7JOWLpmXod6
 
